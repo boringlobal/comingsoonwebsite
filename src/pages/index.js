@@ -1,6 +1,6 @@
 import { PageSEO } from '@/components/SEO'
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   return {
     props: {
       siteTitle: 'Boring Global',
